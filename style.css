@@ -1,0 +1,31 @@
+.container>.row {
+  margin-top: 1rem;
+}
+.siguiente {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.tablero {
+  min-height: 20px;
+  background-color: burlywood;
+  /* width: 100%; */
+  border-radius: 9px;
+}
+.celda {
+  background-color: darkcyan;
+  height: 80px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 52px;
+  text-align: center;
+  font-weight: bold;
+  color: #CCC;
+}
+.celda:hover {
+  background-color:cornflowerblue;
+
+}
+.celda.ganadora {
+  background: linear-gradient(0deg, rgba(87,85,85,1) 1%, rgba(231,231,3,1) 100%);
+}
